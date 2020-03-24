@@ -8,6 +8,7 @@
   --darkGrey: #313132;
   --navLi: #CCCCCD;
   --navLihover: #f5f5f7; 
+  --mainBg: #FAFAFA;
 }
 header {
   height: 44px;
@@ -42,4 +43,9 @@ li a{
 }
 li a:hover{
     color:var(--navLihover);
+}
+main{
+    height: 580px;
+    width: 100%;
+    background-color: var(--mainBg);
 }
