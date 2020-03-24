@@ -48,4 +48,21 @@ main{
     height: 580px;
     width: 100%;
     background-color: var(--mainBg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+main a{
+    height: inherit;
+    width: inherit;
+}
+main h1{
+    margin-top: 5em;
+}
+h1{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
 }
