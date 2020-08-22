@@ -11,6 +11,9 @@
   --mainBg: #fafafa;
   --blue: #2997ff;
   --iPhoneBg: #fafafa;
+  --lightBlue: #f1f1f3;
+  --lightGrey: #fbfbfd;
+  --skyBlue: #8dc5dc;
 }
 header {
   height: 44px;
@@ -87,7 +90,7 @@ h2 {
 p {
   font-size: 17px;
 }
-.content a {
+a {
   font-size: 21px;
   line-height: 29px;
   font-weight: 400;
@@ -95,7 +98,7 @@ p {
   margin-right: 0.5em;
   text-decoration: none;
 }
-.content a:hover {
+a:hover {
   text-decoration: underline;
 }
 section {
@@ -128,9 +131,40 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 1em;
 }
 .col {
   width: 49%;
   height: 580px;
-  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col h1 {
+  width: 355px;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+#lightBlue {
+  background-color: var(--lightBlue);
+}
+#lightGrey {
+  background-color: var(--lightGrey);
+}
+.col img {
+  height: 400px;
+  width: 550px;
+}
+.col p {
+  width: 350px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+#skyBlue {
+  background-color: var(--skyBlue);
 }
