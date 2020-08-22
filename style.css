@@ -112,3 +112,6 @@ section {
   display: flex;
   justify-content: center;
 }
+.iPad {
+  widows: 100%;
+}
